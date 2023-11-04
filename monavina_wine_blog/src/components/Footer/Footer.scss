@@ -1,0 +1,43 @@
+
+.footer {
+	background-color: #333; // FIXME:
+	color: #fff; // FIXME:
+	position: absolute;
+	bottom: 0;
+	width: 100vw;
+}
+
+.footer-top-line {
+	height: 1px;
+	background-color: #555;
+}
+
+.footer-content {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.footer-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex: 1;
+	padding: 1rem 2rem;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}

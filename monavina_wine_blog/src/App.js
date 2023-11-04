@@ -6,6 +6,7 @@ import Contact from './components/Contact/Contact';
 import CategoriesDropdown from './components/Navbar/CategoriesDropdown';
 import Quizzes from './components/Quizzes/Quizzes';
 import SearchBar from './components/Navbar/SearchBar';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
           <Route path="/blog" component={CategoriesDropdown} />
           <Route path="/quizzes" component={Quizzes} />
         </Routes>
-        <SearchBar />
+        <Footer />
       </div>
     </Router>
   );
