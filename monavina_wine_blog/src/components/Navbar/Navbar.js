@@ -1,7 +1,7 @@
 import React from 'react';
 import { Nav, Navbar as BootstrapNavbar, NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import './Navbar.css';
+import './Navbar.scss';
 import SearchBar from './SearchBar';
 import logo from '../../assets/images/monaVina-logo.png';
 
